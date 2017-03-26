@@ -1,0 +1,320 @@
+/*
+Menu: All Anime/All Manga, Watching/Reading, etc...
+
+Modified by Al_eXs
+*/
+div:not(.hide) > table:first-of-type
+{
+    background: url("http://i.imgur.com/AcnISiF.png") 100% 0px no-repeat transparent;
+    display: block;
+    height: 32px !important;
+    overflow: hidden;
+    padding-top: 32px !important;
+    position: fixed;
+    right: 4px;
+    table-layout: fixed;
+    text-align: center;
+    top: 4px;
+    width: 64px !important;
+    z-index: 6;
+	-moz-transition: all 0.4s ease 0s;
+    -webkit-transition: all 0.4s ease 0s;
+    -o-transition: all 0.4s ease 0s;
+    -ms-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
+}
+
+div:not(.hide) > table:first-of-type:hover
+{
+    right: 4px;
+/*    box-sizing: border-box; 
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -ms-box-sizing: border-box;*/
+    background: url("http://i.imgur.com/AcnISiF.png") 100% 0px no-repeat transparent !important;
+    height: auto !important;
+    width: auto !important;
+    display: block !important;
+    -moz-transition: all 0.4s ease 0s;
+    -webkit-transition: all 0.4s ease 0s;
+    -o-transition: all 0.4s ease 0s;
+    -ms-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
+}
+
+div:not(.hide) > table:first-of-type tbody
+{
+    height: 0px !important;
+    overflow: hidden;
+}
+
+div:not(.hide) > table:first-of-type tr
+{
+    background: rgba(255, 255, 255, 0.6);
+    border-radius: 3px 0px 3px 3px;
+    display: block;
+    padding: 8px 0px 4px;
+}
+
+div:not(.hide) > table:first-of-type td
+{
+    display: block !important;
+    width: 168px;
+    right: \4px/;
+}
+
+div:not(.hide) > table:first-of-type a
+{
+    background-color: rgba(64, 60, 90, 0.6);
+    border-radius: 3px;
+    color: #FFFFFF;
+    display: block;
+    font: 13px/17px 'Arial', sans-serif;
+    margin: 0px 12px 4px;
+    padding: 3px 16px 3px;
+    text-decoration: none;
+}
+
+div:not(.hide) > table:first-of-type a:hover
+{
+    background-color: #403C5A;
+}
+
+/* Icon-style Top Bar */
+ #mal_cs_listinfo, #mal_cs_links, #mal_cs_otherlinks, #mal_cs_powered {
+ /*box-sizing: border-box; 
+ -moz-box-sizing: border-box;
+ -webkit-box-sizing: border-box;
+ -o-box-sizing: border-box;
+ -ms-box-sizing: border-box;*/
+ -moz-transition: all 0.4s ease 0s;
+ -webkit-transition: all 0.4s ease 0s;
+ -o-transition: all 0.4s ease 0s;
+ -ms-transition: all 0.4s ease 0s;
+ transition: all 0.4s ease 0s;
+ background: none no-repeat scroll 100% 0 transparent;
+ border: 0 none;
+ display: block;
+ height: 0px !important;
+ overflow: hidden;
+ padding: 32px 0 0 !important;
+ position: fixed !important;
+ right: 4px;
+ text-align: center;
+ top: 4px;
+ width: 32px !important;
+ z-index: 10;
+ }
+
+ #mal_cs_listinfo:hover, #mal_cs_links:hover, #mal_cs_otherlinks:hover, #mal_cs_powered:hover {
+ height: auto !important;
+ width: 150px !important;
+ }
+
+ #mal_cs_listinfo div, #mal_cs_links div, #mal_cs_otherlinks div, #mal_cs_powered div, #mal_cs_powered dd {
+ -moz-transition: opacity 0.4s ease-in-out 0s;
+ -webkit-transition: opacity 0.4s ease-in-out 0s;
+ -o-transition: opacity 0.4s ease-in-out 0s;
+ -ms-transition: opacity 0.4s ease-in-out 0s;
+ transition: opacity 0.4s ease-in-out 0s;
+ background-color: rgba(255, 255, 255, 0.6);
+ border-radius: 3px 0 0 0;
+ font-size: 0 !important;
+ line-height: 0;
+ margin: 0 !important;
+ opacity: 0;
+ padding: 8px 0 0 !important;
+ }
+
+ #mal_cs_listinfo:hover div, #mal_cs_links:hover div, #mal_cs_otherlinks:hover div, #mal_cs_powered:hover div, #mal_cs_powered:hover dd {
+ opacity: 1;
+ }
+
+ #mal_cs_listinfo div:nth-of-type(2), #mal_cs_links div:nth-of-type(2), #mal_cs_otherlinks div:nth-of-type(2), #mal_cs_powered div:nth-of-type(2) {
+ border-radius: 0 0 3px 3px;
+ padding: 4px 0 8px !important;
+ }
+
+ #mal_cs_listinfo a, #mal_cs_links a, #mal_cs_otherlinks a, #mal_cs_powered a {
+ background-color: rgba(64, 60, 90, 0.6) !important;
+ border-radius: 3px 3px 3px 3px;
+ display: block;
+ font: 13px/17px 'Arial', sans-serif !important;
+ margin: 4px 12px 0;
+ padding: 3px 0 !important;
+ text-decoration: none !important;
+ }
+
+ #mal_cs_listinfo a:nth-of-type(1), #mal_cs_links a:nth-of-type(1), #mal_cs_otherlinks a:nth-of-type(1), #mal_cs_powered a:nth-of-type(1) {
+ margin-top: 0;
+ }
+
+ #mal_cs_listinfo a:hover, #mal_cs_links a:hover, #mal_cs_otherlinks a:hover {
+ background-color: #403C5A !important;
+ }
+
+ #mal_cs_listinfo strong a strong {
+ font-weight: normal;
+ }
+
+ #mal_cs_otherlinks strong {
+ color: #EEEEEE;
+ display: block;
+ font: bold 13px/17px 'Arial',sans-serif !important;
+ padding: 0 4px 4px;
+ text-shadow: 1px 1px 1px #333333;
+ }
+
+ #mal_cs_otherlinks strong a {
+ background: none transparent !important;
+ border-radius: 0 0 0 0;
+ color: #333333;
+ display: inline;
+ font: bold 13px/17px 'Arial',sans-serif !important;
+ margin: 0;
+ padding: 0;
+ text-shadow: 0 1px 1px #FFFFFF;
+ }
+
+ #mal_cs_powered a {
+ background-color: rgba(255, 255, 255, 0.6) !important;
+ border-radius: 3px 0 0 0 !important;
+ display: block !important;
+ margin: 0 !important;
+ opacity: 0;
+ padding: 8px 0 0 !important;
+ }
+
+ #mal_cs_powered:hover a {
+ opacity: 1;
+ }
+
+ #mal_cs_powered a img {
+ -moz-transition: all 0.25s ease-in-out 0s;
+ -webkit-transition: all 0.25s ease-in-out 0s;
+ -o-transition: all 0.25s ease-in-out 0s;
+ -ms-transition: all 0.25s ease-in-out 0s;
+ transition: all 0.25s ease-in-out 0s;
+ background: url("http://i.imgur.com/AcnISiF.png") no-repeat scroll 50% 6px rgba(64, 60, 90, 0.6);
+ border-radius: 3px 3px 3px 3px;
+ display: block;
+ height: 0;
+ margin: 0 12px;
+ padding: 23px 0 0 126px;
+ width: 0;
+ }
+
+ #mal_cs_powered a img:hover {
+ background-color: #403C5A;
+ }
+
+ #mal_cs_powered #search {
+ border-radius: 0 0 3px 3px;
+ padding: 8px !important;
+ position: relative;
+ }
+
+ #searchBox {
+/* box-sizing: border-box; 
+ -moz-box-sizing: border-box;
+ -webkit-box-sizing: border-box;
+ -o-box-sizing: border-box;
+ -ms-box-sizing: border-box;*/
+ border-color: #BCBCBC #D6D6D6 #D6D6D6;
+ border-radius: 2px 2px 2px 2px;
+ border-style: solid;
+ border-width: 1px;
+ color: #333333;
+ display: inline-block;
+ font-family: arial,sans-serif;
+ font-size: 13px;
+ height: 28px;
+ padding-left: 6px !important;
+ padding-right: 24px !important;
+ vertical-align: top;
+ width: 100px !important;
+ }
+
+ #searchBox:hover, #searchBox:focus {
+ border-color: #ACACAC #C6C6C6 #C6C6C6;
+ box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1) inset;
+ }
+
+ #searchListButton {
+ background: url("http://i.imgur.com/AcnISiF.png") no-repeat scroll 0 0 transparent;
+ border-radius: 3px 3px 3px 3px;
+ display: none;
+ height: 0;
+ margin: 0;
+ padding: 16px 0 0 16px !important;
+ right: 12px !important;
+ top: 14px !important;
+ width: 0;
+ }
+
+ #mal_cs_listinfo {
+ background-image: url("http://i.imgur.com/AcnISiF.png");
+ right: 174px;
+ }
+
+ #mal_cs_listinfo:hover {
+ background-image: url("http://i.imgur.com/AcnISiF.png");
+ }
+
+ #mal_cs_links {
+ background-image: url("http://i.imgur.com/AcnISiF.png");
+ right: 140px !important;
+ z-index: 9;
+ }
+
+ #mal_cs_links:hover {
+ background-image: url("http://i.imgur.com/AcnISiF.png");
+ }
+
+ #mal_cs_otherlinks {
+ background-image: url("http://i.imgur.com/AcnISiF.png");
+ right: 106px !important;
+ z-index: 8;
+ }
+
+ #mal_cs_otherlinks:hover {
+ background-image: url("http://i.imgur.com/AcnISiF.png");
+ }
+
+ #mal_cs_powered {
+ background-image: url("http://i.imgur.com/AcnISiF.png");
+ right: 72px !important;
+ z-index: 7;
+ }
+
+ #mal_cs_powered:hover {
+ background-image: url("http://i.imgur.com/AcnISiF.png");
+ }
+
+ #mal\_control\_strip {
+ background: transparent !important;
+ }
+
+ #mal_cs_pic img {
+ display: none;
+ }
+
+ #mal_cs_pic {
+ position: absolute;
+ }
+
+ #mal_cs_pic, #mal_cs_listinfo, #mal_cs_links {
+ border-right: 0 none !important;
+ }
+
+@media screen and (-webkit-min-device-pixel-ratio:0){
+ div:not(.hide) > table:first-of-type{
+ height: 0px !important;
+ }
+ }
+
+ :root div:not(.hide) > table:first-of-type {
+ right: 68px \0/;
+ float: right;
+ }
